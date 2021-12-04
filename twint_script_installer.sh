@@ -1,0 +1,16 @@
+#!/bin/sh
+# this script is the standalone installer for a twitter scraping script using twint
+
+# install dependencies for twint - pip3 and lolcat
+apt-get update
+apt install python3-pip -y
+pip3 install lolcat -y
+# install twint from github repo, and associated requirements
+git clone https://github.com/twintproject/twint.git
+cd twint
+pip3 install . -r requirements.txt
+# go back up a directory to keep twint installation separate
+cd ..
+# get twint script from github and execute it
+# wget PATH TO SCRIPT HERE
+./twint_script.sh 
