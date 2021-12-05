@@ -4,7 +4,7 @@
 # install dependencies for twint - pip3 and lolcat
 apt-get update
 apt install python3-pip -y
-pip3 install lolcat -y
+apt install lolcat -y
 # install twint from github repo, and associated requirements
 git clone https://github.com/twintproject/twint.git
 cd twint
