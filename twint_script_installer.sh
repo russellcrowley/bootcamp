@@ -12,5 +12,6 @@ pip3 install . -r requirements.txt
 # go back up a directory to keep twint installation separate
 cd ..
 # get twint script from github and execute it
-# wget PATH TO SCRIPT HERE
+wget https://raw.githubusercontent.com/russellcrowley/bootcamp/main/twint_script.sh
+chmod +x twint_script.sh
 ./twint_script.sh 
