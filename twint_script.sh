@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # A script using twint to scrape various things from twitter, download dependencies installer from address below
-# URL for twint_script_installer.sh
+# https://raw.githubusercontent.com/russellcrowley/bootcamp/main/twint_script_installer.sh
 
 # Credit for menu:
 # Written By Acon1tum 2021 as a BASH exercise - Original Menu Unknown and Butchered.
