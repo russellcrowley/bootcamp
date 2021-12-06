@@ -1,5 +1,8 @@
 #!/bin/sh
 # this script is the standalone installer for a twitter scraping script using twint
+# to run:
+# chmod +x twint_script_installer.sh
+# sudo ./twint_script_installer.sh
 
 # install dependencies for twint - pip3 and lolcat
 apt-get update
